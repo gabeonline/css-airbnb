@@ -1,10 +1,15 @@
+html {
+  background-color: #E6EAE5;
+}
+
 h2 {
-  color: grey;
+  color: #696969;
   text-align: center;
+
 }
 
 p {
-  color: grey;
+  color: #696969;
   text-align: center;
   margin-bottom: 30px;
 }
@@ -13,7 +18,11 @@ p {
   display: inline;
   width: 600px;
   margin-top: 30px;
-  text-align: center;
+  position: relative;
+  left: 95px;
+
+}
+
 
 }
 
@@ -22,21 +31,25 @@ p {
   text-align: center;
   margin: auto;
   margin-top: 30px;
-  border: 2px solid grey;
+  border: 2px solid #696969;
   width: 200px;
   padding: 10px;
 }
-img {
-  margin: 10px;
-  height: 200px;
-  width: 200px;
 
+img {
+
+  margin: 10px;
+  height: 250px;
+  width: 250px;
 
 }
+
 
 .inline2 {
   display: inline;
   width: 600px;
+  position: relative;
+  left: 95px;
 }
 
 .block2 {
@@ -44,7 +57,9 @@ img {
   text-align: center;
   margin: auto;
   margin-top: 30px;
-  border: 2px solid grey;
+  border: 2px solid #696969;
   width: 200px;
   padding: 10px;
+  padding-left: 0.6cm;
+  padding-right: 0.6cm;
 }
