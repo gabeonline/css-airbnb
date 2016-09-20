@@ -24,8 +24,6 @@ p {
 }
 
 
-}
-
 .block {
   display: block;
   text-align: center;
@@ -34,6 +32,9 @@ p {
   border: 2px solid #696969;
   width: 200px;
   padding: 10px;
+  padding-left: 0.6cm;
+  padding-right: 0.6cm;
+  background-color: #f7f8f7;
 }
 
 img {
@@ -62,4 +63,5 @@ img {
   padding: 10px;
   padding-left: 0.6cm;
   padding-right: 0.6cm;
+  background-color: #f7f8f7;
 }
